@@ -1,0 +1,15 @@
+[project]
+name = "budget-planner"
+version = "0.1.0"
+description = "Money-aware phased budget planning for Priya's personal operating system"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+budget-planner = "budget_planner.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
