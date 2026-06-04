@@ -97,6 +97,7 @@ Allowed:
 - managed database/vector store
 - paid rendering if content volume justifies it
 - observability/evals if agents are used with real customers
+- optional investment data or portfolio sync tools only after the free `portfolio-manager` workflow proves useful
 
 Exit criteria:
 
@@ -114,4 +115,3 @@ Before paying for a tool, answer:
 5. Can this wait until revenue appears?
 
 Default answer: wait.
-
